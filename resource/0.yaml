@@ -1,0 +1,126 @@
+building_name: chart
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 0
+      - {speed_limit: 0}
+    - - 1
+      - 2
+      - {door_name: chart_cssd_door, speed_limit: 0}
+    - - 2
+      - 1
+      - {door_name: chart_cssd_door, speed_limit: 0}
+    - - 2
+      - 3
+      - {speed_limit: 0}
+    - - 3
+      - 2
+      - {speed_limit: 0}
+    - - 3
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 3
+      - {speed_limit: 0}
+    - - 4
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 4
+      - {speed_limit: 0}
+    - - 5
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 5
+      - {speed_limit: 0}
+    - - 4
+      - 7
+      - {speed_limit: 0}
+    - - 7
+      - 4
+      - {speed_limit: 0}
+    - - 7
+      - 8
+      - {speed_limit: 0}
+    - - 8
+      - 7
+      - {speed_limit: 0}
+    vertices:
+    - - 8.667402100745806
+      - -15.550339063102768
+      - {is_parking_spot: true, name: bed00}
+    - - 9.814558261138632
+      - -15.550339063102768
+      - {name: bed01}
+    - - 12.746179559920302
+      - -15.550339063102768
+      - {name: bed02}
+    - - 17.20734240589241
+      - -15.550339063102768
+      - {name: bed10}
+    - - 17.20734240589241
+      - -21.630266713184753
+      - {name: bed03}
+    - - 18.933927142899655
+      - -21.630266713184753
+      - {name: bed04}
+    - - 22.547991641499017
+      - -21.630266713184753
+      - {lift: LF001, lift_cabin: LF001, name: LF001_L1}
+    - - 14.785568289507552
+      - -21.630266713184753
+      - {name: bed06}
+    - - 14.785568289507552
+      - -23.707893981451765
+      - {is_charger: true, is_parking_spot: true, name: charging_station, spawn_robot_name: mir_100,
+        spawn_robot_type: DeliveryRobot}
+    - - 15.785568289507552
+      - -23.630266713184753
+      - {name: bed05}
+  L3:
+    lanes:
+    - - 0
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 0
+      - {speed_limit: 0}
+    - - 1
+      - 2
+      - {speed_limit: 0}
+    - - 2
+      - 1
+      - {speed_limit: 0}
+    - - 2
+      - 3
+      - {speed_limit: 0}
+    - - 3
+      - 2
+      - {speed_limit: 0}
+    - - 3
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 3
+      - {speed_limit: 0}
+    vertices:
+    - - 22.547991641499017
+      - -21.630266713184753
+      - {lift: LF001, lift_cabin: LF001, name: LF001_L3}
+    - - 19.119269339880454
+      - -21.630266713184753
+      - {name: liftLobby_L3}
+    - - 17.33480420149161
+      - -21.630266713184753
+      - {name: ''}
+    - - 17.33480420149161
+      - -19.501654726678062
+      - {name: ''}
+    - - 13.259124063950175
+      - -19.501654726678062
+      - {is_parking_spot: true, name: delivery_point}
